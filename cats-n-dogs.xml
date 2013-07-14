@@ -4,8 +4,8 @@
       xsi:schemaLocation="http://interactive-answers.webmaster.yandex.ru/schemas/site/0.0.1  http://interactive-answers.webmaster.yandex.ru/schemas/site-0.0.1.xsd">
 
     <rootUrl>http://example.com</rootUrl>
-    <title>Пример доски объявлений</title>
-    <description>Доска объявлений о продаже собак и кошек, щенков и котят</description>
+    <title>Лечение онкологии в Израиле</title>
+    <description>Лечение различных видив раковых заболеваний в Израиле</description>
 
     <resource>
         <fixed name="example.com" terminal="false">
@@ -14,17 +14,17 @@
     </resource>
     <filters>
         <dropDown>
-            <description caption="животное">
+            <description caption="Рак">
                 <modifyResource placeholder="species"/>
             </description>
-            <dropDownValue key="cats" caption="кошки">
+            <dropDownValue key="дети" caption="взрослые">
                 <dropDown>
                     <description caption="порода">
                         <setParameter name="breed"/>
                     </description>
                     <dropDownValue key="british" caption="британская"/>
                     <dropDownValue key="scottish" caption="шотландская"/>
-                    <!--...-->
+                    <dropDownValue key="british" caption="британская"/>
                     <dropDownValue key="maine_coon" caption="мейн-кун"/>
                     <dropDownValue key="other" caption="другие"/>
                 </dropDown>
